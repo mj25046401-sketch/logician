@@ -1,0 +1,146 @@
+import { LocService } from '../types';
+
+export const LOC_SERVICES: LocService[] = [
+  {
+    id: 'starter-install',
+    name: 'Starter Locs Install',
+    category: 'starter',
+    price: '$80.00',
+    priceNumeric: 80,
+    duration: '3.5 - 4.5 hrs',
+    summary: 'Custom geometric grid parting with comb coils or two-strand twists crafted for your specific hair density and lifestyle.',
+    description: 'The sacred beginning of your crown journey. Includes scalp analysis, clarifying peppermint cleanse, custom grid parting (diamond, square, or organic), coil installation, and a take-home care kit.',
+    isPopular: true,
+    isFeaturedInHero: true,
+    iconType: 'comb',
+    included: ['Scalp & follicle analysis', 'Organic herbal shampoo wash', 'Precision geometric parting', 'Take-home mist & silk bonnet guide']
+  },
+  {
+    id: 'retwist-style',
+    name: 'Retwist & Style',
+    category: 'maintenance',
+    price: '$120.00',
+    priceNumeric: 120,
+    duration: '2.0 - 2.5 hrs',
+    summary: 'Signature tension-free palm roll retwist with clean crisp parts and your choice of custom crown styling.',
+    description: 'Our most booked experience. Gentle organic clarifying wash, deep rosemary scalp rinse, tension-free palm-rolling with plant-based locking gel (zero wax, zero buildup), finished with sculpted barrel twists or crown buns.',
+    isPopular: true,
+    isFeaturedInHero: true,
+    iconType: 'twist',
+    included: ['Dual organic clarifying wash', 'Tension-free root palm-roll', 'Custom barrel rolls or two-strand style', 'Under-dryer set & cold mist seal']
+  },
+  {
+    id: 'loc-detox-treatment',
+    name: 'Loc Detox & Treatment',
+    category: 'detox',
+    price: '$65.00',
+    priceNumeric: 65,
+    duration: '1.5 hrs',
+    summary: 'Signature clarifying ACV soak, mineral buildup extraction, and warm botanical herbal steam bath.',
+    description: 'Deep therapeutic detox for long-wearing locs. Removes lint, product buildup, and hard water minerals with pure raw Apple Cider Vinegar, baking soda, tea tree, and lavender soak, followed by steam moisture infusion.',
+    isPopular: false,
+    isFeaturedInHero: true,
+    iconType: 'bottle',
+    included: ['Submersion detox basin bath', 'Buildup & lint magnetic extraction', 'Scalp micro-exfoliation', 'Herbal steam hydration therapy']
+  },
+  {
+    id: 'retwist-treatment-combo',
+    name: 'Retwist Loc & Treatment Combo',
+    category: 'maintenance',
+    price: '$145.00',
+    priceNumeric: 145,
+    duration: '3.0 hrs',
+    summary: 'The comprehensive Crown Revival: ACV detox soak, herbal steam infusion, precision retwist, and signature crown styling.',
+    description: 'The ultimate royal renewal for mature locs. Combines our deep basin detox soak, warm rosemary steam cap, tension-free root maintenance, and creative artisan styling for maximum shine and scalp comfort.',
+    isPopular: true,
+    isFeaturedInHero: true,
+    iconType: 'crown',
+    included: ['Deep ACV & tea tree detox basin', 'Warm botanical steam infusion', 'Clean parting & palm-roll retwist', 'Designer crown styling']
+  },
+  {
+    id: 'crochet-instant-locs',
+    name: 'Instant Locs (Crochet Method)',
+    category: 'starter',
+    price: '$250.00',
+    priceNumeric: 250,
+    duration: '5.0 - 6.0 hrs',
+    summary: 'Skip the budding phase. 100% immediate mature loc structure formed with medical-grade micro-crochet needles.',
+    description: 'Ideal for straight, wavy, or soft curl textures who want instant locked texture without unraveling. Leaves your hair looking 1-2 years matured immediately with zero synthetic materials.',
+    isPopular: false,
+    iconType: 'sparkles',
+    included: ['Micro-crochet interlocking', 'Grid layout customization', 'Instant locking technique', 'Growth tracking consultation']
+  },
+  {
+    id: 'interlocking-maintenance',
+    name: 'Interlocking Root Maintenance',
+    category: 'maintenance',
+    price: '$110.00',
+    priceNumeric: 110,
+    duration: '2.0 hrs',
+    summary: '4-point rotation interlocking using latch hook tools for active athletes and swimmers who wash frequently.',
+    description: 'Long-lasting maintenance technique that secures the new growth into the root without unraveling in water or sweat. Tension-balanced to prevent thinning.',
+    isPopular: false,
+    iconType: 'twist',
+    included: ['Clarifying wash & scalp stimulate', '4-point clockwise interlocking', 'Scalp soothing mist', 'Edge control finish']
+  },
+  {
+    id: 'crown-updo-styling',
+    name: 'Artisan Loc Updos & Petals',
+    category: 'styling',
+    price: '$75.00',
+    priceNumeric: 75,
+    duration: '1.5 hrs',
+    summary: 'Show-stopping event styles: intricate crown halos, loc petal roses, high braided buns, and royal updos.',
+    description: 'Transform your locs for weddings, galas, photo sessions, or everyday regal presence. Secured without tight pins or painful tension.',
+    isPopular: true,
+    iconType: 'crown',
+    included: ['Rosewater moisturizing mist', 'Custom sculpted design', 'Crown accessory placement (gold cuffs included)', 'Lightweight setting spray']
+  },
+  {
+    id: 'two-strand-loc-twist',
+    name: 'Two-Strand Loc Cords / Ropes',
+    category: 'styling',
+    price: '$65.00',
+    priceNumeric: 65,
+    duration: '1.0 - 1.5 hrs',
+    summary: 'Two locs twisted together into chunky rope twists that can be worn as a style or taken down for crimped waves.',
+    description: 'Double your loc style versatility. Wear as defined rope cords for 2-3 weeks, then unravel for glorious defined crinkle waves.',
+    isPopular: false,
+    iconType: 'twist',
+    included: ['Natural flaxseed jelly hold', 'Elastic-free banded tips', 'Crinkle wave transition guide']
+  },
+  {
+    id: 'hot-oil-steam-spa',
+    name: 'Botanical Hot Oil & Steam Spa',
+    category: 'detox',
+    price: '$50.00',
+    priceNumeric: 50,
+    duration: '1.0 hr',
+    summary: 'Warm infusion of Jamaican black castor, jojoba, and rosemary oils under micro-mist steam.',
+    description: 'Penetrates deep into the cortex of dehydrated locs. Relieves dry itchy scalp, repairs brittle tips, and restores rich natural elasticity.',
+    isPopular: false,
+    iconType: 'bottle',
+    included: ['Scalp stimulation massage', 'Warm herbal oil infusion', 'Micro-mist thermal steam hood', 'Light peppermint rinse']
+  },
+  {
+    id: 'loc-repair-reattachment',
+    name: 'Loc Repair & Re-Attachment',
+    category: 'maintenance',
+    price: '$95.00',
+    priceNumeric: 95,
+    duration: '2.0 hrs',
+    summary: 'Seamless restoration for thinning roots, split locs, or reattaching previously stored locs.',
+    description: 'Expert structural reinforcement using human hair fiber wrapping or needle blending. Restores structural integrity without noticeable seams.',
+    isPopular: false,
+    iconType: 'scissors',
+    included: ['Structural audit', 'Root re-anchoring', 'Seamless crochet blend', 'Post-repair strengthening plan']
+  }
+];
+
+export const SERVICE_CATEGORIES = [
+  { id: 'all', label: 'All Services', icon: '✨' },
+  { id: 'starter', label: 'Starter Locs', icon: '🌱' },
+  { id: 'maintenance', label: 'Maintenance & Retwist', icon: '👑' },
+  { id: 'styling', label: 'Loc Styling & Updos', icon: '💫' },
+  { id: 'detox', label: 'Detox & Treatments', icon: '🍃' },
+];

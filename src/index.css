@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Syne', sans-serif;
+  --font-heading: 'Syne', 'Outfit', sans-serif;
+  --font-script: 'Caveat', cursive;
+  --color-loc-yellow: #FFD166;
+  --color-loc-black: #111827;
+  --color-loc-gold: #E5A93C;
+  --color-loc-white: #F9FAFB;
+  --color-loc-charcoal: #374151;
+}
+
+/* Custom scrollbar and smooth transitions */
+html {
+  scroll-behavior: smooth;
+}
